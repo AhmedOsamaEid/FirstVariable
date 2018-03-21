@@ -10,6 +10,9 @@ namespace FirstVariable
     {
         static void Main(string[] args)
         {
+            int x = 25;
+            Console.WriteLine("My Variable Value = {0}", x);
+            Console.ReadKey();
         }
     }
 }
